@@ -4,7 +4,6 @@ final ThemeData customTheme = ThemeData(
 		seedColor: Colors.green,
 		secondary: Colors.yellow,
 	),
-	scaffoldBackgroundColor: Colors.white,
 	textTheme: TextTheme(
 		headlineLarge: TextStyle(
 			fontSize: 32,
@@ -15,6 +14,7 @@ final ThemeData customTheme = ThemeData(
 			color: Colors.black,
 		)
 	),
+	scaffoldBackgroundColor: Colors.white,
 	appBarTheme: AppBarTheme(
 		centerTitle: true,
 		backgroundColor: Colors.green,
