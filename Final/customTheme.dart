@@ -1,4 +1,4 @@
-final ThemeData customTheme = ThemeData (
+final ThemeData customTheme = ThemeData(
 	useMaterial3: true,
 	colorScheme: ColorScheme.fromSeed(
 		seedColor: Colors.green,
