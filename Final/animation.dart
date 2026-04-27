@@ -1,7 +1,8 @@
 ...
 ...
 
-{
+.. with SingleTickerProviderStateMixin {
+	
 	late AnimationController _controller;
 	late Animation<double> _animation;
 
