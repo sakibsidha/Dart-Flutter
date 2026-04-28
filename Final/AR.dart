@@ -11,7 +11,7 @@ import 'package:arcore_flutter_plugin/arcore_flutter_plugin.dart';
 				name: 'earth',
 				objectUrl: '..url.gltf',
 				position: ArCoreVector(0, 0, -1),
-			)
+			);
 		)
 	}
 
