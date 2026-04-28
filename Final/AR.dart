@@ -4,7 +4,7 @@ import 'package:arcore_flutter_plugin/arcore_flutter_plugin.dart';
 ..ARScreen.. {
 	ArCoreController? arCoreController;
 
-	void _onArCoreViewCreated() {
+	void _onArCoreViewCreated(ArCoreController controller) {
 		arCoreController = controller;
 		arCoreController!.addArCoreNode(
 			ArCoreReferenceNode(
